@@ -6,7 +6,6 @@ def main(s):
     Returns:
         int: answer
     """
-    # if len(s)==5:
     if s[0]=="*":
         return 0
 
