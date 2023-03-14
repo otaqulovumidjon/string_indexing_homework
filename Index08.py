@@ -7,21 +7,21 @@ def main(s):
         int: answer
     """
     if len(s)<=5:
-        if len(s)>=1 and s[0]=="*":
+        if s[0]=="*":
             return 0
 
-        elif len(s)>=2 and s[1]=="*":
+        elif s[1]=="*":
             return 1
 
-        elif len(s)>=3 and s[2]=="*":
+        elif s[2]=="*":
             return 2
 
-        elif len(s)>=4 and s[3]=="*":
+        elif s[3]=="*":
             return 3
 
-        elif len(s)==5 and s[4]=="*":
+        elif s[4]=="*":
             return 4
         else:
             return False
 
-print(main("kej*d"))
+print(main("2*44"))
