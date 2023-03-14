@@ -6,22 +6,22 @@ def main(s):
     Returns:
         int: answer
     """
-    if len(s)==5:
-        if s[0]=="*":
-            return 0
+    # if len(s)==5:
+    if s[0]=="*":
+        return 0
 
-        elif s[1]=="*":
-            return 1
+    elif s[1]=="*":
+        return 1
 
-        elif s[2]=="*":
-            return 2
+    elif s[2]=="*":
+        return 2
 
-        elif s[3]=="*":
-            return 3
+    elif s[3]=="*":
+        return 3
 
-        elif s[4]=="*":
-            return 4
-        else:
-            return False
+    elif s[4]=="*":
+        return 4
+    else:
+        return False
 
 print(main("2884*"))
