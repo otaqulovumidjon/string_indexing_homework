@@ -6,4 +6,18 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    a = 0
+    if len(s)==5:
+        if s[0].isdigit():
+            a+=1
+        if s[1].isdigit():
+            a+=1
+        if s[2].isdigit():
+            a+=1
+        if s[3].isdigit():
+            a+=1
+        if s[4].isdigit():
+            a+=1
+    return a
+
+print(main("32x3z"))
