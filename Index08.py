@@ -6,7 +6,7 @@ def main(s):
     Returns:
         int: answer
     """
-    if len(s)<=5:
+    if len(s)==5:
         if s[0]=="*":
             return 0
 
@@ -24,4 +24,4 @@ def main(s):
         else:
             return False
 
-print(main("2*44"))
+print(main("2884*"))
