@@ -6,4 +6,9 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    if len(s)>n:
+        return s[n]
+    else:
+        return False
+
+print(main("codeschool", 0))
